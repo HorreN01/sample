@@ -1,0 +1,159 @@
+<!-- This file is to elaborate HTML Course
+
+HTML stands for Hyper Text Markup Language, so unlike programming languages, It depends on tags not scripts
+
+Tags are the most important things in HTML
+
+Every HTML starts with <html> and ends with </html>
+
+html tag is followed by <head>  (It's the non-visual part)
+
+inside <head> we use <title> and <meta>
+
+<head> is followed by <body>  (It's the visual part)
+
+<body> is so important, it contains the all visual data we will use
+
+inside <body> we use <h1> for heading and <p> for paragraphs
+    
+Here are some tags for formatting text:
+<b>   bold   <strong> is the same
+<i>   italic  <em>    is the same (emphasized)
+<u>   underline
+<small>  smaller
+<mark>   mark or highlight
+<del>    delete (btshtop L kelma)
+<ins>    insert
+<sub>    chemical use
+<sup>    arithmetic (mathematical ) use
+<q>      to make quotation
+
+
+to add links in the page we use <a> (anchor tag)
+<a> has custom attribute which is href
+href attribute is for the full path of the link
+attributes are written inside the openning tag
+the content for <a> will be text that we want to show to the user
+<a> can have important attribute which is target
+inside target attribute we write "_blank" to open in the link in new tab
+third attribute can be used for <a> is title to show something to the user
+instead of link, we can put our email like this :
+<a href= "mailto: blabla@gmail.com">Contact me</a>
+to create a link that lead you to specific paragraph at the same page, do these steps:
+1- use id attribute to your paragraph
+2- put this id inside href but use # before the id
+
+
+<img> is the image tag
+it has 2 attributes,  src and alt
+src is the full path of the source image
+alt is the alternative text that will appear if anything is wrong with the image
+
+
+style attribute is a general attribute it can change the color and background-color of the text
+
+
+List tags:
+<ul>   unordered list       is used to declare that i'm going to use this kind of list
+<ol>   ordered   list       is used to declare that i'm going to use this kind of list
+<li>   list item that is written inside ul or ol
+the attributes we can use with <ol> is reversed and start and type
+
+<dl>  descrpition list      is used to declare that i'm going to use this kind of list
+<dt>  description term
+<dd>  description of term
+
+
+<table> to make table
+the table consists of 3 things:
+table head  <thead>
+table body  <tbody>
+table foot  <tfoot> (not always)
+inside them we put rows  <tr>
+inside the row we put <td> which is table data
+to sum up:
+<thead>   table head
+<tbody>   table body
+<tfoot>   table foot
+<tr>      table row
+<td>      table data
+<caption> caption for the table
+colspan attribute is used to merge rows, we pass value to it like 1 or 2 or 3
+rawspan attribute is used to merge columns, we pass value to it like 1 or 2 or 3
+
+
+<span> is the same as any text without tag but we use it to focus on some text to help us dealing with it in the CSS
+
+
+<div>  (division or group) it's so important, it's a container to deal with things easily and correctly in the CSS
+we use class attribute to distinguish div tags
+we don't use <div> with any normal text. we should know the appropriate cases to use
+
+
+Entities enables us to write tag as a normal text
+to do so we use the following snytax:
+& following by the entitiy name followed by semi colon
+so if we want to wrwit <p> as a text we do like this:
+&lt; p &gt;
+&lt = less than
+&gt = greater than
+we can get these entities from the internet
+
+
+semantic elements are just meaningful elements that were added in HTML5 instead of using many <div> and their classes attributes:
+<header>
+<nav>  (navigation bar)
+<section> or <main> (mo7twa el mawk3)
+<article>
+<aside>
+<footer>
+
+
+<audio> has attributes like:
+src         the full path of the audio
+controls    to display the control buttons
+autoplay    to autoplay the audio once i open the site
+loop        to replay the audio
+muted       to mute the audio
+
+
+<video> has attributes like:
+src         the full path of the video
+controls    to display the control buttons
+autoplay    to autoplay the video once i open the site
+loop        to replay the video
+muted       to mute the video
+width
+height
+poster      to display temporary img while the video is downloading
+<track>     is optional to use for people with disorder, it has attributes like:
+src
+kind
+srclang
+label
+
+
+<form>               inside it we use  <input>
+<input>              is a self closing element. It has attributes like: 
+type                 text - password - email - submit - reset - hidden - color - range - number - radio - checkbox - date - url
+required             is important and cannot be skipped
+placeholder          enables me to show something to the user if label does not exist
+value                is used to show  the old email to the user (for example)
+name
+readonly             we can only read it, it will be sent with the data     
+disabled             we can do nothing with it, it won't be sent with the data
+autofocus            to focus on some input once i open the site
+minlength            can be used with password input
+maxlength            can be used with passwword input
+ 
+<form> has attributes like : 
+action           to send the data to the file i want
+method           to choose which method to send it,  get or post
+<label>          is used to name our inputs
+
+we can connect between input and its label
+to do so, we will give an id to the input
+then we will use for attribute in the label tag like this:
+label for = "id value" 
+    
+ -->
